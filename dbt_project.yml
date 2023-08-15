@@ -38,8 +38,12 @@ models:
       +materialized: table
       pokemon:
         +schema: pokemon
+      steam:
+        +schema: steam
     analytics:
       +database: analytics
       +materialized: view
       pokemon:
         +schema: pokemon
+      steam:
+        +schema: steam
